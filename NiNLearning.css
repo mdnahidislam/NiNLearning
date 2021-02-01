@@ -1,0 +1,225 @@
+body, h1, h2, h3, h4, h5, h6{
+ font-family: 'Work Sans', sans-serif; 
+}
+img{
+  max-width:100%;
+}
+.section-bg{
+  background:#f7f9ff;
+}
+/*Header Section */
+.nin-header .navbar-brand{
+  font-size:28px;
+  font-weight:500;
+  font-family: 'Rye', cursive;
+}
+.nin-header .logo {
+  display:inline-block;
+  background:none;
+  color:#3742fa;
+  height:30px;
+  width:34px;
+  text-align:center center;
+  border-radius:5px;
+  font-size:32px;
+  position:relative;
+  top:1px;
+  padding:1px 1px;
+}
+.but{
+  font-weight:600;
+}
+/* slider-section*/
+.slider-section{
+  background:url(https://i.ibb.co/M2C8cP3/1-jpeg.jpg) no-repeat;
+  padding:160px 0;
+  position:relative;
+  z-index:1;
+  background-attachment:fixed;
+}
+.slider-section::after{
+  content:"";
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:rgba(19, 15, 64,.3);
+  z-index:-1;
+}
+.slider-caption h4{
+  font-size:20px;
+  margin-bottom:10px;
+}
+.slider-caption h2{
+  font-size:35px;
+  font-weight:500;
+  margin-bottom:20px;
+}
+.slider-caption .get{
+  background:#0097e6;
+  padding:10px 3px;
+  font-size:22px;
+  font-weight:500;
+  color: #fff;
+}
+.slider-caption .form-control{
+ padding:15px 20px; 
+}
+  /*Counter section*/
+.counter-number .h2{
+  font-size:35px;
+  font-weight:500;
+}
+.counter-number p{
+  font-size:21px;
+  margin-top:-5px;
+}
+  /*Feature section*/
+  .Feature-item{
+    height:300px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+  }
+  .left-img-sec{
+    width:50%;
+    overflow:hidden;
+    border-radius:5px 0 0 5px;
+  }
+  .left-text-sec{
+    width:50%;
+    padding:4px;
+  }
+  .left-img-sec img{
+    height:100%;
+    width:auto !important;
+    max-width:inherit;
+    position:relative;
+    left:-40px;
+  }
+  .i-size{
+    max-height:300px;
+  }
+    /*portfolio item hover*/
+    .portfolio-item a{
+      position:relative;
+      display:block;
+      
+    }
+    .portfolio-item a::after{
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      background-color:rgba(189, 195, 199, .5);
+      opacity:0;
+      visibility:hidden;
+      transition:.5s;
+    }
+    .portfolio-item:hover a::after{
+      opacity:1;
+      visibility:visible;
+    }
+      /*Pricing Section*/
+    .col .hed{
+      font-weight:600;
+      font-size:40px;
+    }
+    .pricing-item{
+      background: #fff;
+      padding:50px;
+      box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+      border-radius:5px;
+    }
+    .pricing-item h2{
+      font-weight:600;
+      padding:5px 0;
+    }
+    .pricing-item h5{
+      padding:5px 0;
+    }
+    .pricing-item ul{
+      list-style:none;
+      margin-left:0;
+      padding-left:0;
+      margin-bottom:45px;
+      
+    }
+    .pricing-item ul li{
+      margin:10px 0;
+      font-size:20px;
+      color: #777;
+    }
+    .pricing-item ul li span{
+      color: #657be0;
+      font-size:25px;
+      font-weight:bold;
+      width:30px;
+      display:inline-block;
+    }
+    .pricing-item-button a{
+      border-color: #0097e6;
+      border-width:2px;
+      color: #0097e6;
+      padding: 14px 30px;
+      font-size:20px;
+      font-weight:600;
+    }
+    /*Testimoniall Section*/
+    .testimonial-wrap span{
+      font-size:75px;
+      color:rgba(223, 228, 234,.6);
+    }
+    .author-info{
+      width:320px;
+      margin:auto;
+    }
+    .author-info img{
+      width:90px;
+      height:auto;
+      margin-left:-185px;
+    }
+    .about-author{
+      position:relative;
+      text-align:center;
+      margin-top:-70px;
+    }
+      /*about section*/
+    .about-item{
+      margin-top:50px;
+    }
+    .about-item .card{
+      
+    }
+    .about-item .card img{
+      width:100px;
+      height:auto;
+      margin-top:-50px;
+      margin-left:15px;
+    }
+      /*Contact section*/
+      .contact-form .card{
+        box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.7);
+        padding:15px;
+      }
+      /* Source App*/
+      .row .air{
+        display:inline-block;
+        text-align:right;
+      }
+      .row .air a{
+        font-weight:600;
+        font-size:25px;
+      }
+      .row .air span{
+        font-size:25px;
+      }
+      .row .ano a{
+        font-weight:600;
+        font-size:24px;
+      }
+        /*Footer Section*/
+      footer{
+        background:rgba(206, 214, 224,1.0);
+      }
